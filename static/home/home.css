@@ -52,6 +52,9 @@ h1 {
     height: 40px;
     width: 120px;
     padding: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
     background-color: transparent;
     color: white;
     border: 1px solid white;
