@@ -1,19 +1,4 @@
-:root {
-    --cor-body: rgb(29, 53, 133);
-    --cor-1: #006CF0;
-    --cor-2: #216BC5;
-    --cor-3: #34629B;
-    --cor-4: #385170;
-    --cor-5: #2E3946;
-    --cor-6: #2B2E33;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import url(../base/style.css);
 
 body {
     width: 100%;
