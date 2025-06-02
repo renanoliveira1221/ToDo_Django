@@ -1,1 +1,72 @@
 @import url(../base/style.css);
+
+body {
+    background-color: var(--cor-6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 12pt;
+    padding: 0 5px;
+    height: 30px;
+    outline: none;
+}
+
+.button {
+    font-size: 16pt;
+    background-color: transparent;
+    border: 2px solid var(--cor-1);
+    border-radius: 10px;
+    color: var(--cor-1);
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: var(--cor-1);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 3px white;
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+a:hover {
+    text-shadow: 0 0 3px white;
+    transition: 0.2s;
+}
